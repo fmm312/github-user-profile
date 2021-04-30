@@ -35,7 +35,7 @@ const Header = () => {
   return (
     <Container>
       <GithubCorner 
-        href="https://github.com/username/repo" 
+        href="https://github.com/fmm312/github-user-profile" 
         bannerColor="#1f6feb"
       />
 

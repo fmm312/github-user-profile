@@ -6,8 +6,8 @@ import { Container } from './styles';
 function Footer() {
   return (
     <Container>
-        <h4>That was developed with React, Chart.js, Styled Components and more :)</h4>
-      <GoTop />
+      <h4>That was developed with React, Chart.js, Styled Components and more :)</h4>
+      {/* <GoTop /> */}
     </Container>
   );
 }
