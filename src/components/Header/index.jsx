@@ -2,6 +2,7 @@ import React from 'react';
 import moment from 'moment';
 import CountUp from 'react-countup';
 import GithubCorner from 'react-github-corner';
+import { useHistory } from 'react-router-dom';
 
 import {
   Avatar,
@@ -14,6 +15,7 @@ import {
 import { MdWork } from 'react-icons/md';
 import { GoLocation } from 'react-icons/go';
 import { BiCalendar } from 'react-icons/bi';
+import { BsArrowLeftShort } from 'react-icons/bs';
 
 const Header = () => {
   const data = JSON.parse(sessionStorage.getItem('userData'));
@@ -32,8 +34,21 @@ const Header = () => {
     html_url
   } = data;
 
+  const history = useHistory();
+
+  function goBack() {
+    history.push('/');
+    sessionStorage.removeItem('userRepositories');
+    sessionStorage.removeItem('userData');
+  }
+
   return (
     <Container>
+      <BsArrowLeftShort 
+        className="go-back-icon"
+        onClick={goBack}
+      />
+
       <GithubCorner 
         href="https://github.com/fmm312/github-user-profile" 
         bannerColor="#1f6feb"

@@ -9,4 +9,8 @@ export const Container = styled.div`
   padding: 20px;
   background-color: var(--color-scale-gray-0);
   /* letter-spacing: .5px; */
+
+  @media(max-width: 520px) {
+    text-align: center;
+  }
 `;

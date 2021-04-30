@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div`
   padding: 10px 60px 60px 60px;
   text-align: center;
+
+  @media(max-width: 520px) {
+    padding: 20px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -49,6 +53,10 @@ export const Card = styled.div`
   transition: all 300ms ease;
   cursor: pointer;
   box-shadow: rgb(0 0 0 / 20%) 0px 10px 30px -15px;
+
+  @media(max-width: 520px) {
+    width: 100%;
+  }
 
   &:hover {
     box-shadow: rgb(0 0 0 / 10%) 0px 2px 3px -5px;

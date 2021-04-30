@@ -9,6 +9,10 @@ export const Container = styled.div`
   flex-direction: column;
   padding-bottom: 50px;
 
+  @media(max-width: 520px) {
+    text-align: center;
+  }
+
   .icon {
     color: var(--color-scale-blue-5);
     font-size: 70px;
@@ -18,6 +22,10 @@ export const Container = styled.div`
   > div {
     display: flex;
     align-items: center;
+
+    @media(max-width: 520px) {
+      flex-direction: column;
+    }
   }
 
   .error-message {
@@ -27,6 +35,11 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media(max-width: 520px) {
+      position: absolute;
+      bottom: 40px;
+    }
 
     .error-message-icon {
       font-size: 16px;
@@ -55,6 +68,10 @@ export const TextField = styled.input`
   width: 320px;
   margin-right: 20px;
   border-radius: 4px;
+
+  @media(max-width: 520px) {
+    text-align: center;
+  }
 `;
 
 export const FindButton = styled.button`
@@ -91,7 +108,5 @@ export const FindButton = styled.button`
       100% { transform: rotate(360deg); }
     }
   }
-
-
   
 `;

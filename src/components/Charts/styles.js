@@ -6,6 +6,11 @@ export const Container = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-wrap: nowrap;
+
+  @media(max-width: 520px) {
+    flex-wrap: wrap;
+    padding: 100px 20px 60px 20px;
+  }
 `;
 
 export const ChartContainer = styled.div`
@@ -23,6 +28,11 @@ export const Block = styled.div`
   padding: 20px;
   color: var(--color-scale-gray-8);
   box-shadow: rgb(0 0 0 / 20%) 0px 10px 30px -15px;
+
+  @media(max-width: 520px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 `;
 
 export const Divider = styled.div`
