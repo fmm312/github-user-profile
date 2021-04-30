@@ -6,7 +6,7 @@ import { Container } from './styles';
 function Footer() {
   return (
     <Container>
-      Findme was developed with React, Chart.js, Styled Components and more
+        <h4>That was developed with React, Chart.js, Styled Components and more :)</h4>
       <GoTop />
     </Container>
   );

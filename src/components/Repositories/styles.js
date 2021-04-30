@@ -111,11 +111,16 @@ export const Card = styled.div`
 export const ButtonFilter = styled.button`
   background-color: #fff;
   padding: 6px 10px;
-  border-radius: 94px;
+  border-radius: 4px;
   width: 60px;
   font-weight: 600;
   border: 2px solid var(--color-scale-gray-5);
   margin-right: 10px;
+  transition: all 300ms ease;
+
+  &:hover {
+    opacity: .9;
+  }
 `;
 
 export const GoToRepoButton = styled.button`

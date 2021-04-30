@@ -4,9 +4,9 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items:center;
-  font-size: 14px;
-  color: var(--color-scale-gray-0);
+  font-size: 12px;
+  color: var(--color-scale-gray-8);
   padding: 20px;
-  background-color: var(--color-scale-gray-8);
-  letter-spacing: .5px;
+  background-color: var(--color-scale-gray-0);
+  /* letter-spacing: .5px; */
 `;

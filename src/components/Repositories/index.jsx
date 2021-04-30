@@ -60,6 +60,10 @@ const Repositories = () => {
     color: '#fff',
     border: '2px solid #1f6feb'
   }
+
+  function goToRepositorie(url) {
+    window.open(url);
+  }
   
   return (
     <Container>
@@ -102,7 +106,7 @@ const Repositories = () => {
 
       <CardContainer>
         {topRepositories.map((item) => (
-          <Card>
+          <Card onClick={() => goToRepositorie(item?.html_url)}>
             <div className="card-header">
               <h2>
                 <RiGitRepositoryLine className="card-icon" />
@@ -132,12 +136,12 @@ const Repositories = () => {
         ))}
       </CardContainer>
       
-      <GoToRepoButton>
+      {/* <GoToRepoButton>
         <a href="">
-          Go to Github profile
+          Go to Github
           <BiLinkExternal className="linkExternal" />
         </a>
-      </GoToRepoButton>
+      </GoToRepoButton> */}
     </Container>
   );
 }
