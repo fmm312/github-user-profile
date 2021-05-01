@@ -10,7 +10,7 @@ const PieChart = () => {
 
   function countLanguages() {
     const repositories = JSON.parse(sessionStorage.getItem('userRepositories'));
-    const filteredArray = repositories.map(item => item.language).slice(0, 5);
+    const filteredArray = repositories.map(item => item.language);
 
     let count = {};
     
