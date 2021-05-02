@@ -9,14 +9,15 @@ A personalized view of github users
 
 </div>
 
+
 ## Features
 
 - Project **features**.
   - Integration with **Github API**
   - Nice charts with **chart.js**
   - Repositories filters
-  - **Styled components**
   - **Responsive design**
+  - CD at **Vercel**
 
 ## Getting started
 
@@ -33,9 +34,6 @@ $ yarn start
 
 Want to contribute? Create [pull request](https://github.com/fmm312/github-user-profile/pulls) or [issue](https://github.com/fmm312/github-user-profile/issues).
 
-## History
-
-See [Releases](https://github.com/fmm312/github-user-profile/blob/master/RELEASES.md) for detailed changelog.
 
 ## License
-[MIT License](https://github.com/fmm312/github-user-profile/blob/master/LICENSE)
+[MIT License](https://github.com/fmm312/github-user-profile/blob/master/LICENSE).
