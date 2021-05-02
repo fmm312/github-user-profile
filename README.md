@@ -4,7 +4,7 @@
 
 A personalized view of github users
 
-[![Generic badge](https://img.shields.io/badge/License-MIT-1158c7.svg)]()
+[![Generic badge](https://img.shields.io/badge/License-MIT-1158c7.svg)](https://github.com/fmm312/github-user-profile/blob/master/LICENSE)
 [![Generic badge](https://img.shields.io/badge/Version-1.0.0-1158c7.svg)]()
 
 </div>
@@ -35,7 +35,7 @@ Want to contribute? Create [pull request](https://github.com/fmm312/github-user-
 
 ## History
 
-See [Releases]() for detailed changelog.
+See [Releases](https://github.com/fmm312/github-user-profile/blob/master/RELEASES.md) for detailed changelog.
 
 ## License
-[MIT License]()
+[MIT License](https://github.com/fmm312/github-user-profile/blob/master/LICENSE)
